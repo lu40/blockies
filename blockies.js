@@ -116,7 +116,8 @@
 
 	var api = {
 		create: createIcon,
-		render: renderIcon
+		render: renderIcon,
+		buildOpts: buildOpts
 	};
 
 	if (typeof module !== "undefined") {
